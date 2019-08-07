@@ -1,0 +1,24 @@
+table.pvtTable .pvtAxisLabel.expanded {
+    white-space: nowrap;
+    cursor: zoom-out !important;
+    background-color: white;
+    height: 50px !important;
+    font-weight: bold !important;
+    color: black !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    font-family: Muli, Helvetica Neue, Arial, sans-serif !important;
+}
+
+  table.pvtTable tbody tr th, table.pvtTable thead tr th{
+	background-color: white !important;
+  }
+
+
+  table.pvtTable thead tr:hover{
+	overflow: inherit !important;
+  }
+
+  th.pvtRowLabel.rowcol5.rowexpanded.rowshow:hover{
+	overflow: inherit !important;
+  }
